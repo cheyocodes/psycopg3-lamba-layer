@@ -3,7 +3,12 @@
 ### Create packages for lambda layer
 To create a pyscopg3 zip with the packages for your lambda layer simply execute `runner.sh`:
 ```sh
-./runner.sh
+./runner.sh 
+```
+
+or execute via `Makefile`
+```
+make create
 ```
 
 ### Create an S3 bucket for your lambda layer
